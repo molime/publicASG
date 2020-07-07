@@ -42,7 +42,6 @@ Future _saveDeviceToken() async {
   final FirebaseUser user = await auth.currentUser();
   if (user != null) {
     final uid = user.uid;
-    //print('Debug ----->' + uid);
     //Get the token of the users device
     //( this token is used like an adress to send on the push notifications)
     String fcmToken = await fcm.getToken();
