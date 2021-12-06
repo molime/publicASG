@@ -9,6 +9,9 @@
 .history
 .svn/
 
+#Key Properties file
+key.properties
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -29,6 +32,9 @@
 .pub-cache/
 .pub/
 /build/
+/android/
+/ios/
+/test/
 
 # Web related
 lib/generated_plugin_registrant.dart

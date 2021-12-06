@@ -73,10 +73,10 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.green,
           accentColor: Colors.blueAccent,
         ),
-        initialRoute: SplashScreen.id,
+        initialRoute: HomeScreen.id,
         routes: {
           HomeScreen.id: (context) => HomeScreen(),
-          SplashScreen.id: (context) => SplashScreen(),
+          //SplashScreen.id: (context) => SplashScreen(),
         },
       ),
     );

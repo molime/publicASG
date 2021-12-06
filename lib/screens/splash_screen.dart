@@ -1,3 +1,4 @@
+/*
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
@@ -83,3 +84,4 @@ class SplashScreenState extends State<SplashScreen>
     );
   }
 }
+*/
